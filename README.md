@@ -6,11 +6,11 @@ Wait for "screen on" event, take a photo, measure the luminance, and apply syste
 The weak point? Oh well, Google API does not have a concept of applying system-wide settings (just setting them).
 
 At that point, this almost finished project, simply died. Because for any method (or rather trick) that could somehow fool Android
-and apply brightness, I counter-scenario (not even corner case) for which this or that method will fail.
+and apply brightness, I know counter-scenario (not even corner case) for which this or that method will fail.
 
 ## Further development
 
-I left some "under development" comment, for easier continuation, but I doubt it will happen. If (!) I find some new trick of applying
+I left some "under development" comments for easier continuation, but I doubt it will happen. If (!) I find some new trick of applying
 brightness (system-wide), sure, but until then -- this code is dead.
 
 Use it, if you like, or let me know if you found out some new way to APPLY system settings in Android.

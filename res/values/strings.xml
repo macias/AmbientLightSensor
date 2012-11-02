@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Ambient Light Sensor</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_preferences">Ambient Light Sensor</string>
+    <string name="indoor_explanation">Do it during minimal, yet normal lightning conditions</string>
+    <string name="outdoor_explanation">Do it during maximal lightning conditions</string>
+    <string name="brightness">Brightness</string>
+    <string name="photo_error">Something went wrong. Please try again.</string>
+    <string name="ok">OK</string>
+    <string name="measuring">measuring…</string>
+    <string name="adjust_brightness">Adjust brightness</string>
+    <string name="indoor">Indoor</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="take_photo">Measure lightning</string>
+    <string name="adjust_brightness_explanation">On next screen scroll up and down to change the brightness</string>
+    <string name="title_activity_brightness">Brightness control</string>
+    <string name="enabled">Enabled</string>
+
+</resources>

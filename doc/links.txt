@@ -1,0 +1,7 @@
+http://stackoverflow.com/questions/6708692/changing-the-screen-brightness-system-setting-android
+http://stackoverflow.com/questions/4643320/refreshing-the-display-from-a-widget
+http://stackoverflow.com/questions/6098729/android-front-camera
+http://androidresearch.wordpress.com/2012/03/09/creating-a-preference-activity-in-android/
+http://stackoverflow.com/questions/5788557/how-to-get-home-wallpaper-offset
+http://saigeethamn.blogspot.com/2009/08/android-developer-tutorial-for_31.html
+http://stackoverflow.com/questions/6746056/how-to-get-text-color-of-textview

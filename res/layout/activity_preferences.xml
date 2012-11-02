@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <CheckedTextView
+            android:id="@+id/enabledCheckedText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:gravity="left|fill_vertical"
+            android:longClickable="false"
+            android:onClick="enabledClicked"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text="@string/enabled"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/categoryText1"
+        style="@android:style/TextAppearance.Inverse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="@string/indoor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="5sp"
+            android:paddingRight="10sp" >
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="indoorPhotoClicked"
+                android:text="@string/take_photo" />
+
+            <TextView
+                android:id="@+id/indoorLightningText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="@string/indoor_explanation"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="5sp"
+            android:paddingRight="10sp" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="indoorBrightnessClicked"
+                android:text="@string/adjust_brightness" />
+
+            <TextView
+                android:id="@+id/indoorBrightnessText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/categoryText2"
+        style="@android:style/TextAppearance.Inverse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="@string/outdoor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="5sp"
+            android:paddingRight="10sp" >
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="outdoorPhotoClicked"
+                android:text="@string/take_photo" />
+
+            <TextView
+                android:id="@+id/outdoorLightningText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="@string/outdoor_explanation"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="5sp"
+            android:paddingRight="10sp" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="outdoorBrightnessClicked"
+                android:text="@string/adjust_brightness" />
+
+            <TextView
+                android:id="@+id/outdoorBrightnessText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
